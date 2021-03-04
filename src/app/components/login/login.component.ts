@@ -35,7 +35,6 @@ export class LoginComponent implements OnInit {
   Token(obj: Cuenta) {
     this.ServiceBack.getToken(obj).subscribe(
       res => {
-   
         localStorage.setItem('Token', res.token);
         const lStorage = localStorage.getItem('Token');
         if(lStorage){
@@ -43,7 +42,7 @@ export class LoginComponent implements OnInit {
         }
       },
       error => {
-        console.log("Error xd")
+        
       }
     )
   }
