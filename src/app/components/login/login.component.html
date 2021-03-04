@@ -1,15 +1,16 @@
     <div class="loginDiv">
-        <div class="">
+        <div class="loginContainer">
             <h1>LOGIN</h1>
         </div>
         <div class="container">
             <input type="text" pInputText [(ngModel)]="cuenta.mail"/>
             <input type="text" pInputText [(ngModel)]="cuenta.password"/>
-            <p-button label="Ingresar" (onClick)="Token(cuenta)"></p-button>
-
+    
+           
         </div>
+       
         <div class="container">
-          
+            <button pButton pRipple type="button" label="Ingresar" (onClick)="Token(cuenta)" class="p-button-outlined"></button>
         </div>
     </div>
 

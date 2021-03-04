@@ -1,0 +1,19 @@
+.flexEnd{ 
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+.tokenContainer{
+    background-color: #3E3E3E;
+    color: #ffffff;
+    overflow-wrap: break-word;
+    padding: 1%;
+    border-radius: 8px;
+    border: 1px solid white;
+    box-shadow: 4px 4px 20px 4px #88888877;
+ 
+}
+button{
+    min-width: 50px;
+    width: 150px; 
+}

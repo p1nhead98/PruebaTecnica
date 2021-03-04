@@ -1,2 +1,21 @@
-<p>data works!</p>
-<button (click)="Salir()" ></button>
+<div class="flexEnd">
+    <button pButton pRipple type="button" (click)="Salir()" label="Salir"
+        class="p-button-raised p-button-danger"></button>
+</div>
+<div>
+    <div class="tokenContainer">
+        <p>token:{{this.token}}</p>
+    </div>
+</div>
+
+<p-tabView>
+    <p-tabPanel header="NASA APOD">
+        
+    </p-tabPanel>
+
+
+    <p-tabPanel header="POKÉMON">
+        Content 2
+    </p-tabPanel>
+ 
+</p-tabView>
