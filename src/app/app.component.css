@@ -1,0 +1,11 @@
+.loginBackground{
+    margin: 0px !important;
+    background: url('../assets/images/LoginBackground.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.calse{
+    background-color: lightgreen;
+}
